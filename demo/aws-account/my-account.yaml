@@ -1,0 +1,11 @@
+apiVersion: platform.benkeil.de/v1alpha1
+kind: AwsAccount
+metadata:
+  name: my-account
+  labels:
+    run: my-account
+spec:
+  regions:
+    - eu-central-1
+  accountId: "0123456789"
+  team: my-team

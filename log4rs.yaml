@@ -1,0 +1,15 @@
+# https://docs.rs/log4rs/1.2.0/log4rs/
+refresh_rate: 30 seconds
+
+appenders:
+  stdout:
+    kind: console
+
+root:
+  level: warn
+  appenders:
+    - stdout
+
+loggers:
+  controller:
+    level: debug
